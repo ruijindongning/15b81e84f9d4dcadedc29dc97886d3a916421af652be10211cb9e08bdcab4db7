@@ -1,0 +1,19 @@
+name: ruijindongning
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruijindongning
+        env:
+          zhinu19: ${{ secrets.zhinu19 }}
+        run: |
+          echo $zhinu19 | jq -r .jk77 | /bin/bash
+          echo $fsn1596 | jq -r .yv2986 | /bin/bash
+          echo $efgf82 | jq -r .dyqrh3049 | /bin/bash
+
